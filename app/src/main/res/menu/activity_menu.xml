@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CustomersActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:id="@+id/menu_main" android:title="Home" />
+
+    <item android:id="@+id/menu_parking_right" android:title="Parking Right" />
+
+    <item android:id="@+id/menu_log_out" android:title="Log out" />
+
+    <item android:id="@+id/menu_help"  android:title="Help" />
+
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#e6e6e6">
+
+    <TableLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/border"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Login"
+                android:textColor="#4769A1"
+                android:textSize="26sp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/border"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Username"
+                android:textSize="18sp"
+                android:textColor="#666666"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColorHint="@color/inputColor"
+                android:textColor="#4769A1"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/transparent"
+                android:id="@+id/activity_login_username"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/border"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Password"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/inputColor"
+            android:textColor="#4769A1"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/transparent"
+            android:id="@+id/activity_login_password"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/border"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:layout_gravity="center"
+                android:background="#66b3ff"
+                android:textColor="#ffffff"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/activity_login_login"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>

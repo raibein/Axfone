@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Axfone</string>
+    <string name="search">Search</string>
+    <string name="menu_settings">Setting</string>
+    <string name="title_activity_main">Filter List View</string>
+    <string name="customer_name">"Customer Name : "</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="nav">Axfone navigation</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="parking">Parking Right</string>
+    <string name="help">Help</string>
+    <string name="logout">Log out</string>
+    <string name="setting">Setting</string>
+</resources>

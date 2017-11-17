@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/border"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:layout_column="1"
+                android:id="@+id/activity_single_layout_view_id"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:layout_column="1"
+                android:id="@+id/activity_single_layout_view_name"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="Slots"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:layout_column="1"
+                android:id="@+id/activity_single_layout_view_slots"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="Used slots"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:layout_column="1"
+                android:id="@+id/activity_single_layout_view_used_slots"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="wrap_content"
+                android:text="Park Id"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:layout_column="1"
+                android:id="@+id/activity_single_layout_view_park_id"/>
+
+            <!--
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="View"
+              android:layout_marginTop="18dp"
+              android:layout_marginLeft="40dp"
+              android:textSize="16dp"
+              android:id="@+id/activity_single_layout_view_action"/>
+          -->
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

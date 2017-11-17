@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.raben.axfone.CustomersActivity"
+    tools:showIn="@layout/activity_customers"
+    android:weightSum="1">
+
+    <TableLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2">
+
+        <TableRow
+            android:background="@drawable/border"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#4769A1"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="Slots"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#4769A1"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="Used slots"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#4769A1"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="wrap_content"
+                android:text="Park Place"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#4769A1"
+                android:textSize="16dp"/>
+        </TableRow>
+    </TableLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/search"
+            android:id="@+id/listview_display_customers"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
